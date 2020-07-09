@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:onClick="CustomersOnClick"
-        android:text="Button"
+        android:text="Customers"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,10 +24,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:onClick="ProductsOnClick"
-        android:text="Button"
+        android:text="Products"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCustomers"
-        tools:text="Customers" />
+        tools:text="Products" />
 </androidx.constraintlayout.widget.ConstraintLayout>
